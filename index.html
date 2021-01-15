@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My page</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"> </script>
+    <body onload ="load()">
+        <button type="button" onclick="clicked()">Click here</button>
+        <p id="thank" onclick="redirect()"></p>
+        <p id="mousemove" onmouseover="change(this)" onmouseout="comeback(this)">"Mouse over here"</p>
+        <p onmouseover="change(this)" onmouseout="comeback(this)">"Mouse over here"</p>
+        <select onchange="choice(this)">
+            <option value="1">value 1</option>
+            <option value="2">value 2</option>
+            <option value="3">value 3</option>
+        </select>
+    </body>
